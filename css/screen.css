@@ -45,6 +45,13 @@ html {
   box-sizing: inherit;
 }
 
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -212,7 +219,7 @@ a:focus {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 90em; /* 90 * 16px = 1440px */
+  max-width: 56.4em; /* 90 * 16px = 1440px */
 }
 
 /*
